@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Codealpha_Social_Media_Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Social Media Dashboard</h1>
+        </div>
+        <div class="metrics">
+            <div class="metric" id="followers">
+                <h2>Followers</h2>
+                <p id="followersCount">0</p>
+            </div>
+            <div class="metric" id="likes">
+                <h2>Likes</h2>
+                <p id="likesCount">0</p>
+            </div>
+            <div class="metric" id="comments">
+                <h2>Comments</h2>
+                <p id="commentsCount">0</p>
+            </div>
+        </div>
+        <div class="chart-container">
+            <canvas id="myChart"></canvas>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
